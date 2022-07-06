@@ -129,38 +129,109 @@ span {
     height: 100%;
     text-align: center;
     padding-left: 0%;
-   
+
 }
-.plan{
+
+.plan {
     border-radius: 10px;
     margin: 1%;
     padding: 0;
     padding-top: 1%;
 }
-.plan img{
+
+.plan img {
     width: 10%;
 }
-.plan h3{
+
+.plan h3 {
     font-size: 25px;
     font-family: 'Inter', sans-serif;
 
 }
-#food{
+
+#food {
     padding-left: 0%;
     background-color: #f4ff9650;
 }
-#education{
- 
+
+#education {
+
     background-color: #ff969650;
 }
-#treatment{
+
+#treatment {
     background-color: rgb(174, 222, 255);
 }
-#patnar{
+
+#patnar {
     padding-top: 3%;
     text-align: center;
 }
-#patnar img{
+
+#patnar img {
     width: 80%;
+
+}
+
+.experience {
+    margin-top: 4%;
+    display: flex;
+    width: 100%;
+}
+
+.experience img {
+    width: 100%;
+    height: 85%;
+    margin-top: 15%;
+}
+
+.experience div {
+    width: 40%;
+    padding: 5%;
+}
+
+.experience p {
+    margin-bottom: 10%;
+}
+
+.experience a {
+    margin: 20%;
+}
+.updates{
+    display: flex;
+    background-color: #ffde9650;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 5%;
+    margin-bottom: 10%;
+    padding-left: 15%;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    font-size: 15px;
+    font-family: 'Inter', sans-serif;
+
+}
+#email{
+    margin: 5%;
+    color: grey;
+    background-color: rgb(218, 218, 218);
+    padding-left: 3%;
+    padding-right: 35%;
+    margin-right: 0%;
+    padding-top: 8px;
+    padding-bottom:8px ;
+
+    
+}
+#subscribe{
+    margin: 5%;
+    color: white;
+    background-color: #FF5959;
+    margin-left:0;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 8px;
+    padding-bottom:8px ;
+
 
 }

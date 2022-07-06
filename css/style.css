@@ -7,60 +7,64 @@ h1 {
     font-family: 'Inter', sans-serif;
     font-size: 70px;
     text-align: center;
-    padding-top: 3%;
 }
-h2{
+
+h2 {
     font-family: 'Inter', sans-serif;
     font-size: 50px;
     text-align: center;
     padding-top: 3%;
     padding-bottom: 0;
-    
+
 }
+
 p {
     font-family: 'Manrope', sans-serif;
     font-family: 'Montserrat', sans-serif;
     font-family: 'Poppins', sans-serif;
     font-size: 18px;
     text-align: center;
-    font-weight: 400;
     color: gray;
 }
 
 .cover {
     background-image: url(../images/donation15.jpg);
     background-repeat: no-repeat;
-    background-size:100%;
+    background-size: 100%;
     padding: 12%;
-   
-
 }
-.cover a{
+
+a {
     font-family: 'Inter', sans-serif;
     text-decoration: none;
     color: white;
-    font-weight: 700;
+    font-size: 20px;
     background-color: #FF5959;
-    padding: 10px 40px;
+    padding: 20px 40px;
     border-radius: 5px;
 }
-.cover p{
-    padding: 3%;
+
+.cover p {
+    padding-bottom: 3%;
+
     color: white;
 }
+
 .cover-text {
     color: white;
     text-align: center;
 
 }
-.donating-amount{
+
+.donating-amount {
     display: flex;
- padding-left:25%;
+    padding-left: 25%;
 }
-.amount{
+
+.amount {
     font-family: 'Inter', sans-serif;
     text-align: center;
-    padding: 3% 1% ;
+    padding: 4% 2%;
     margin: 1%;
     background-color: rgb(241, 239, 239);
     border-radius: 7px;
@@ -68,3 +72,95 @@ p {
     color: rgb(97, 97, 97);
 }
 
+#selected-amount {
+    border: 2px solid #FF5959;
+    background-color: #ff969650;
+}
+
+#amount-number {
+    text-align: center;
+}
+
+#amount-number p {
+    border-bottom: 1px solid rgb(194, 194, 194);
+    padding-top: 3%;
+    padding-bottom: 1%;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-bottom: 4%;
+
+}
+
+.portfolio {
+    background-color: #FF5959;
+    display: flex;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    color: white;
+    margin-top: 12%;
+}
+
+.portfolio p {
+    color: aliceblue;
+    margin-top: 0%;
+
+}
+
+.portfolio div {
+    margin: 1%;
+    padding-left: 5%;
+    padding-right: 7%;
+}
+
+span {
+    color: #FF5959;
+}
+
+.our-plan p {
+    margin-left: 23%;
+    margin-right: 23%;
+
+}
+
+.plan-section {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    padding-left: 0%;
+   
+}
+.plan{
+    border-radius: 10px;
+    margin: 1%;
+    padding: 0;
+    padding-top: 1%;
+}
+.plan img{
+    width: 10%;
+}
+.plan h3{
+    font-size: 25px;
+    font-family: 'Inter', sans-serif;
+
+}
+#food{
+    padding-left: 0%;
+    background-color: #f4ff9650;
+}
+#education{
+ 
+    background-color: #ff969650;
+}
+#treatment{
+    background-color: rgb(174, 222, 255);
+}
+#patnar{
+    padding-top: 3%;
+    text-align: center;
+}
+#patnar img{
+    width: 80%;
+
+}

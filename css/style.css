@@ -5,13 +5,13 @@ body {
 
 h1 {
     font-family: 'Inter', sans-serif;
-    font-size: 70px;
+    font-size: 65px;
     text-align: center;
 }
 
 h2 {
     font-family: 'Inter', sans-serif;
-    font-size: 50px;
+    font-size: 45px;
     text-align: center;
     padding-top: 3%;
     padding-bottom: 0;
@@ -27,13 +27,6 @@ p {
     color: gray;
 }
 
-.cover {
-    background-image: url(../images/donation15.jpg);
-    background-repeat: no-repeat;
-    background-size: 100%;
-    padding: 12%;
-}
-
 a {
     font-family: 'Inter', sans-serif;
     text-decoration: none;
@@ -44,10 +37,11 @@ a {
     border-radius: 5px;
 }
 
-.cover p {
-    padding-bottom: 3%;
-
-    color: white;
+.cover {
+    background-image: url(../images/donation15.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    padding: 12%;
 }
 
 .cover-text {
@@ -56,9 +50,19 @@ a {
 
 }
 
+
+.cover p {
+    padding-bottom: 3%;
+
+    color: white;
+}
+
+
+
 .donating-amount {
     display: flex;
-    padding-left: 25%;
+    padding-left: 22%;
+    margin-bottom: 5%;
 }
 
 .amount {
@@ -81,14 +85,20 @@ a {
     text-align: center;
 }
 
-#amount-number p {
-    border-bottom: 1px solid rgb(194, 194, 194);
-    padding-top: 3%;
-    padding-bottom: 1%;
-    margin-left: 20%;
-    margin-right: 20%;
+#amount-number input {
+    font-size: 25px;
+    text-align: center;
     margin-bottom: 4%;
+    width: 500px;
+    border: 0;
+    border-bottom: 2px solid #dfdfdf;
+    height: 63px;
+    padding-left: 5%;
+}
 
+
+#amount-button {
+    text-align: center;
 }
 
 .portfolio {
@@ -151,16 +161,16 @@ span {
 
 #food {
     padding-left: 0%;
-    background-color: #f4ff9650;
+    background-color: #abff9650;
 }
 
 #education {
 
-    background-color: #ff969650;
+    background-color: #de96ff50;
 }
 
 #treatment {
-    background-color: rgb(174, 222, 255);
+    background-color: rgba(117, 195, 247, 0.356);
 }
 
 #patnar {
@@ -197,41 +207,50 @@ span {
 .experience a {
     margin: 20%;
 }
-.updates{
+
+.updates {
     display: flex;
     background-color: #ffde9650;
     margin-left: 20%;
     margin-right: 20%;
     margin-top: 5%;
-    margin-bottom: 10%;
+    margin-bottom: 7%;
     padding-left: 15%;
     padding-top: 3%;
-    padding-bottom: 3%;
+    padding-bottom: 5%;
     font-size: 15px;
     font-family: 'Inter', sans-serif;
 
 }
-#email{
-    margin: 5%;
-    color: grey;
-    background-color: rgb(218, 218, 218);
-    padding-left: 3%;
-    padding-right: 35%;
-    margin-right: 0%;
-    padding-top: 8px;
-    padding-bottom:8px ;
 
-    
-}
-#subscribe{
-    margin: 5%;
-    color: white;
-    background-color: #FF5959;
-    margin-left:0;
+.updates input {
+    font-family: 'Inter', sans-serif;
+    color: #dfdfdf;
+    border: 0;
+    height: 63px;
+    width: 300px;
+    margin-top: 20px;
     padding-left: 5%;
-    padding-right: 5%;
+    border-radius: 5px;
+    font-size: 15px;
+}
+
+#subscribe {
+    margin-top: 40px;
+
+}
+
+footer {
+    background-color: black;
+    padding-bottom: 3px;
+}
+
+footer h2 {
     padding-top: 8px;
-    padding-bottom:8px ;
+    margin-bottom: 0%;
+}
 
-
+#addres {
+    color: rgb(255, 255, 255);
+    padding-bottom: 8px;
 }

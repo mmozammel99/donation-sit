@@ -135,17 +135,15 @@ span {
 
 .plan-section {
     display: flex;
-    width: 100%;
-    height: 100%;
+    width: 80%;
     text-align: center;
-    padding-left: 0%;
-
+    padding-left: 12%;
+    margin-top: 5%;
 }
 
 .plan {
     border-radius: 10px;
     margin: 1%;
-    padding: 0;
     padding-top: 1%;
 }
 
@@ -160,7 +158,6 @@ span {
 }
 
 #food {
-    padding-left: 0%;
     background-color: #abff9650;
 }
 
